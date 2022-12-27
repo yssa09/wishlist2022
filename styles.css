@@ -1,0 +1,158 @@
+
+p{
+    margin-bottom: 20px;
+}
+
+
+
+header {
+   background-color: #fefbe0; color: #253624;position:sticky; 
+ position: fixed; width: 100%; text-align: center; z-index: 1;
+}
+
+.wishlist1 {
+   background-color:#bb2527; height: 470px; padding: 118px 50px 50px 50px; 
+    display: flex; justify-content: center; margin-right: -16px
+}
+
+.wl_image {
+    height: 300px; border-radius: 3% 0 0 3%;
+}
+
+.wl1_caption{
+    background-color: #198039; color: #fefbe0 ; border-radius: 0 3% 3% 0; height: 300px ;width: 400px
+    ; padding:20px 50px 50px 50px; 
+}
+
+.a1 {
+    background-color: #bb2527; color: #fefbe0; margin-top: 30px;
+}
+
+
+.wishlist2 {
+   background-color:#198039; height: 400px; padding: 50px ; 
+    display: flex; flex-direction: row-reverse; justify-content: center; margin-right: -16px
+}
+
+.wl2_image {
+    height: 300px; border-radius: 0 3% 3% 0 ;
+}
+
+.wl2_caption{
+    background-color:#bb2527; color: #fefbe0 ; border-radius: 3% 0 0 3%; width:400px
+    ; padding:20px 50px 50px 50px;
+}
+
+.a2 {
+    background-color: #198039; color: #fefbe0; margin-top: 30px;
+}
+
+.wishlist3 {
+    background-color:#bb2527; height: 400px; padding: 50px ; 
+     display: flex; justify-content: center; margin-right: -16px
+ }
+
+footer {
+    padding-top:15px; padding-bottom: 15px; text-align: end; padding-right: 20px; background-color: #fefbe0; 
+    color:#253624; margin-right: -16px;
+}
+
+.footer_img{
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: #fefbe0;
+    }
+
+   
+  
+    h1 {
+        font-size: medium;
+    }
+
+    h3{
+        font-size: medium;
+    }
+
+    p{
+        font-size: small; margin-top: 0;
+    }
+
+    header {
+        background-color: #fefbe0; color: #253624; width: 100%; text-align: start; padding-left: 20px; height: 40px;
+        margin-top: -10px;
+    }  
+     
+     .wishlist1 {
+        background-color:#f76f72; height: 530px; padding: 50px 20px 20px 20px ; 
+        display: block;
+     }
+     
+     .wl_image {
+         height: 260px; border-radius: 3% 3% 0 0 ;
+     }
+     
+     .wl1_caption{
+         background-color: #98fb98; color: #253624 ; border-radius: 0 0 3% 3% ; height: 200px ;width: 260px
+         ; padding:10px 10px 10px 10px; text-align: center;
+     }
+     
+     .a1 {
+         background-color: #f76f72; color: #65010b; margin-top: 30px;
+     }
+     
+     
+     .wishlist2 {
+        background-color:#98fb98; height: 535px; padding: 20px ; 
+         display: block;
+     }
+     
+     .wl2_image {
+         height: 260px; width: 260px;border-radius: 3% 3% 0 0 ;
+     }
+     
+     .wl2_caption{
+         background-color:#f76f72; color: #65010b ; border-radius: 0 0 3% 3% ; width:260px; height: 235px
+         ; padding:10px 10px 10px 10px;  text-align: center;
+     }
+     
+     .a2 {
+         background-color: #98fb98; color: #253624; margin-top: 30px;
+     }
+     
+     .wishlist3 {
+         background-color:#f76f72; height: 500px; padding: 20px ; 
+          display: block;
+      }
+     
+     footer {
+        height: 20px;text-align: start; padding-left: 10px; background-color: #fefbe0; 
+         color:#253624; margin-right: -16px; font-size: 10px;
+     }
+     
+     .footer_img{
+         height: 30px;
+     }
+
+     .mobile{
+        display: flex; justify-content: center;
+     }
+
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
