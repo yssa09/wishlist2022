@@ -15,8 +15,9 @@ button.onclick = function() {
 
     for (i = 0; i<minorWishList.length; i++) {
         var minorWish = minorWishList[i];
-        document.getElementById("addedWish").innerHTML += "<li> <div class = 'minorWishDiv'> " 
-        + minorWish  + " </div> <input type = 'checkbox' class = 'wishlistCheckbox' onclick = 'clickCheckbox()'></li>" ;           
+        document.getElementById("addedWish").innerHTML += "<li class = 'wishlistList'> <div class = 'minorWishDiv'> " + minorWish  + 
+        " </div> <input type = 'checkbox' class = 'wishlistCheckbox' onclick = 'clickCheckbox()'> <input type = 'checkbox' class = 'deleteWish' onclick = 'fDeleteWish()'></div> </li>" 
+        ;           
         document.getElementById("minor-wish").value = "";
     }
 }
@@ -39,4 +40,16 @@ function clickCheckbox() {
     } 
 }
 
+wishlist = document.getElementsByClassName("wishlistList");
+deleteButtons = document.getElementsByClassName("deleteWish");
+
+function fDeleteWish() {
+    
+    for (i = 0; i < deleteButtons.length; i++) {
+        
+        if (deleteButtons[i].checked && checkboxes[i].checked) {              
+            wishlist[i].style.display = "none";
+        } 
+    } 
+}
 
