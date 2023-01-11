@@ -1,5 +1,6 @@
 body{
-    overflow-x: hidden;
+    margin-top: 65px;
+    width: 100%;
 }
 
 p{
@@ -7,54 +8,150 @@ p{
 }
 
 header {
-    background-color: #fefbe0; color: #253624; position: sticky; 
-    position: fixed; width: 100%; text-align: center; z-index: 1;
+    background-color: #fefbe0; 
+    color: #253624; 
+    position: fixed; 
+    top: 0; left: 0;
+    width: 100%; 
+    text-align: center; 
+    z-index: 1;
 }
 
 .wishlist1 {
-    background-color: #bb2527; height: 470px; padding: 118px 50px 50px 50px; 
-    display: flex; justify-content: center;
+    background-color: #bb2527; 
+    height: 400px; 
+    padding: 50px; 
+    display: flex; 
+    justify-content: center;
 }
 
 .wl_image {
-    height: 300px; border-radius: 3% 0 0 3%;
+    height: 300px; 
+    border-radius: 3% 0 0 3%;
 }
 
 .wl1_caption{
-    background-color: #198039; color: #fefbe0 ; border-radius: 0 3% 3% 0; height: 300px;
-    width: 400px; padding:20px 50px 50px 50px; 
+    background-color: #198039; color: #fefbe0 ; 
+    border-radius: 0 3% 3% 0; 
+    height: 300px; width: 400px; 
+    padding:20px 50px 50px 50px; 
 }
 
 .a1 {
-    background-color: #bb2527; color: #fefbe0; margin-top: 30px;
+    background-color: #bb2527; color: #fefbe0; 
+    margin-top: 30px;
 }
 
 
 .wishlist2 {
-    background-color: #198039; height: 400px; padding: 50px; 
-    display: flex; flex-direction: row-reverse; justify-content: center;
+    background-color: #198039; 
+    height: 400px; 
+    padding: 50px; 
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: center;
 }
 
 .wl2_image {
-    height: 300px; border-radius: 0 3% 3% 0;
+    height: 300px; 
+    border-radius: 0 3% 3% 0;
 }
 
 .wl2_caption{
-    background-color: #bb2527; color: #fefbe0 ; border-radius: 3% 0 0 3%; width:400px; 
+    background-color: #bb2527; 
+    color: #fefbe0 ; 
+    border-radius: 3% 0 0 3%; 
+    width:400px; 
     padding: 20px 50px 50px 50px;
 }
 
 .a2 {
-    background-color: #198039; color: #fefbe0; margin-top: 30px;
+    background-color: #198039; color: #fefbe0; 
+    margin-top: 30px;
 }
 
 .wishlist3 {
-    background-color: #bb2527; height: 400px; padding: 50px ; 
-    display: flex; justify-content: center;
+    background-color: #bb2527; 
+    height: 400px; 
+    padding: 50px ; 
+    display: flex; 
+    justify-content: center;
  }
 
+div.minor_wishlist {
+    background-color: #198039;
+
+}
+
+ section.minor_wishlist{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+ }
+
+section.minor_wishlist ul {
+    background-color:#bb2527;
+    list-style: none;
+    padding: 20px;
+}
+
+section.minor_wishlist div.input-wish{
+    display: flex;
+    justify-content: center;
+}
+
+#minor-wish {
+    background-color: #fefbe0;
+    border-top-left-radius: 2% 18%;
+    border-color: #253624;
+    border-width: 1px;
+    width: 75%;
+    padding: 10px;
+}
+
+#add_wish_button {
+    background-color:#fefbe0;
+    color:#253624;
+    border-top-right-radius: 6% 15%; 
+    border-color: #253624;
+    border-width: 2px;
+    width: 25%;    
+    padding: 0;
+    margin: 0;
+}
+
+#extensionLabel {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    background-color: #bb2527; 
+    color:#fefbe0;
+}
+
+section.minor_wishlist ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 175%;
+}
+
+section.minor_wishlist ul li .minorWishDiv {
+    padding-right: 20px;
+    color:  #fefbe0;
+}
+
+section.minor_wishlist ul li input.wishlistCheckbox {
+    margin: 0;
+}
+
 footer {
-    padding-top: 15px; padding-bottom: 15px; text-align: end; padding-right: 20px; background-color: #fefbe0; 
+    padding: 15px 35px 15px; 
+    text-align: end; 
+    background-color: #fefbe0; 
     color: #253624;
 }
 
@@ -63,77 +160,210 @@ footer {
 }
 
 
-@media only screen and (max-width: 768px){
-    body{
-        background-color: #fefbe0; padding-left: 2px;
-    }
-  
-    h1 {
-        font-size: medium;
-    }
 
-    h3{
-        font-size: medium;
-    }
+/***********************************
+************TABLET*****************/
 
-    p{
-        font-size: small; margin-top: 0;
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #253624; color: #fefbe0;
     }
 
     header {
-        background-color: #fefbe0; color: #253624;  height: 40px; text-align: start; 
-        padding-left: 20px; margin-top: -10px;
+        background-color: #2c4c3b; color: #fefbe0;
+
+    }
+    
+    .wishlist1 {
+        background-color: #253624; color: #fefbe0; 
+        height: 300px;
+        
+    }
+    
+    .wl1_caption{
+        background-color: #2c4c3b; color: #fefbe0; 
+        padding: 20px; height: 250px;
+    }
+    
+    .a1 {
+        color: #253624; background-color: #fefbe0 
+
+    }
+    
+    .wl_image {
+        height: 250px;
+    }
+
+    .wishlist2 {
+        background-color: #253624; color: #fefbe0; 
+        height: 300px;
+
+    }
+    
+    .wl2_caption{
+        background-color: #2c4c3b; color: #fefbe0; 
+        padding: 20px; height: 250px;
+    }
+    
+    .a2 {
+        color: #253624; background-color: #fefbe0;
+    }
+
+    .wl2_image {
+        height: 250px;
+    }
+    
+    .wishlist3 {
+        background-color: #253624; color: #fefbe0; 
+        height: 350px;
+    }
+
+    div.minor_wishlist {
+        background-color: #253624;   
+    }
+
+    section.minor_wishlist{
+        padding-top: 0;
+    }
+
+    section.minor_wishlist #minor-wish {
+       color: #253624;
+     
+    }
+
+    #extensionLabel {
+        background-color:#2c4c3b;
+    }
+
+    section.minor_wishlist ul {
+        background-color:#2c4c3b;
+    
+    }
+    
+    footer {
+        background-color: #2c4c3b; color: #fefbe0;
+
+    }
+
+    
+}
+
+/***********************************
+************MOBILE*****************/
+@media only screen and (max-width: 576px){
+    body {
+    margin-top: 40px;
+    }
+
+    header h1 {
+        text-align: start; 
+        padding-left: 30px;
+        font-size: medium;
     }  
      
     .wishlist1 {
-        background-color: #f76f72; height: 530px; padding: 50px 20px 20px 20px; display: block;
+        height: auto; display: block;
     }
      
     .wl_image {
-        height: 260px; border-radius: 3% 3% 0 0;
+        height: auto; width: 280px; 
+        border-radius: 3% 3% 0 0;
     }
      
     .wl1_caption{
-        background-color: #98fb98; color: #253624 ; border-radius: 0 0 3% 3%; height: 200px; width: 260px; 
-        padding:10px 10px 10px 10px; text-align: center;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-between; 
+        align-items: center;
+        border-radius: 0 0 3% 3%; 
+        height: 280px; width: 280px; 
+        padding:30px; 
+        text-align: center;
     }
      
     .a1 {
-         background-color: #f76f72; color: #65010b; margin-top: 30px;
+        width: min-content;
     }
      
      
     .wishlist2 {
-        background-color: #98fb98; height: 535px; padding: 20px; display: block;
+        height: auto; 
+        display: block; 
+        padding-top: 0;
     }
      
     .wl2_image {
-         height: 260px; width: 260px;border-radius: 3% 3% 0 0;
-    }
+        height: auto; 
+        width: 280px; 
+        border-radius: 3% 3% 0 0;    }
      
     .wl2_caption{
-         background-color: #f76f72; color: #65010b ; border-radius: 0 0 3% 3%; width:260px; height: 235px; 
-         padding: 10px 10px 10px 10px;  text-align: center;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-between; 
+        align-items: center;
+        border-radius: 0 0 3% 3%; 
+        height: 280px; width: 280px; 
+        padding:30px; 
+        text-align: center; 
     }
      
     .a2 {
-         background-color: #98fb98; color: #253624; margin-top: 30px;
+        margin-top: 30px;
     }
      
     .wishlist3 {
-        background-color:#f76f72; height: 500px; padding: 20px; display: block;
+        height: auto; display: block; padding-top: 0;   
     }
-     
-    footer {
-        height: 20px;text-align: center; padding:0 0 0 0px; background-color: #fefbe0; 
-        color: #253624; margin-right: -16px; font-size: 10px;
+
+    section.minor_wishlist div.input-wish{
+        flex-direction: column;
+        justify-content: center;
     }
-     
-    .footer_img{
+
+    section.minor_wishlist{
+        width: 300px;
+    }
+
+    section.minor_wishlist #minor-wish {
+        width: 100%;
+        border-top-right-radius: 2% 18%;
+    }
+    
+    section.minor_wishlist #add_wish_button {
+        width: 100%;    
+        border-top-right-radius: 0;
+        border-width: 1px;
         height: 30px;
     }
 
-    .mobile{
+    section.minor_wishlist ul {
+        line-height: 150%;
+        padding: 10px;
+    }
+
+    section.minor_wishlist .display-wish {
+        padding: none;
+        margin: none;
+        vertical-align: center;
+    }
+     
+    footer {
+        text-align: center; 
+        padding:10px; padding-bottom: 0; 
+        font-size: 12px; 
+        margin-right: -2px;
+    }
+
+    footer span {
+        display: block;
+    }
+     
+    .footer_img{
+        height: 40px;
+    }
+
+    div.mobile{
         display: flex; justify-content: center;
     }
 
