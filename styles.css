@@ -104,7 +104,7 @@ section.minor_wishlist div.input-wish{
     justify-content: center;
 }
 
-#minor-wish {
+section.minor_wishlist div.input-wish .minor-wish {
     background-color: #fefbe0;
     border-top-left-radius: 2% 18%;
     border-color: #253624;
@@ -113,7 +113,7 @@ section.minor_wishlist div.input-wish{
     padding: 10px;
 }
 
-#add_wish_button {
+section.minor_wishlist div.input-wish .add_wish_button {
     background-color:#fefbe0;
     color:#253624;
     border-top-right-radius: 6% 15%; 
@@ -124,7 +124,7 @@ section.minor_wishlist div.input-wish{
     margin: 0;
 }
 
-#extensionLabel {
+section.minor_wishlist div.extensionLabel {
     text-align: center;
     padding-top: 10px;
     font-size: 18px;
